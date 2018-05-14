@@ -19,6 +19,7 @@ RUN \
   apt-get install -y software-properties-common && \
   apt-get install -y byobu curl git htop man unzip vim wget && \
   apt-get install -y iputils-ping && \
+  apt-get install -y mysql-client && \
   rm -rf /var/lib/apt/lists/*
 
 # Add files.
