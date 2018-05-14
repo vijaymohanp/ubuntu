@@ -24,7 +24,6 @@ RUN \
 
 # Add files.
 
-
 # Set environment variables.
 ENV HOME /root
 
